@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" , Arial;
+}
+
+body{
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card{
+    background-color: white;
+    max-width: 370px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+.image{
+   
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+   
+}
+
+
+
+.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+    border-radius: 50%;
+    
+    
+}
+
+.text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.name{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.occupation{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.media-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin-top: 15px;
+  
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: lightcoral;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    color: wheat;
+    background-color: #4070f4;
+    font-size: 18px;
+
+
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.Button{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    padding:  8px 24px;
+    border: none;
+    border-radius: 24px;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    background-color: #4070f4;
+}
+
+.Button:hover{
+    opacity: 0.75;
+    background-color: #0e4bf1;
+}
+
+
+.analytics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 65px;
+    font-weight: bold;
+    
+}
+
+.university{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    
+}
+
+.school{
+    margin-top: 5px;
+}
+
+.uni{
+    margin-top:5px ;
+}
